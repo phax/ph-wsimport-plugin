@@ -4,13 +4,13 @@ A plugin for wsimport 2.2 to add some extra functionality
 Versions <= 2.2.8 are compatible with ph-commons < 6.0
 Versions >= 2.2.8.1 are compatible with ph-commons >= 6.0
 
-#Maven usage
+# Maven usage
 Add the following to your pom.xml to use this artifact:
-```
+```xml
 <dependency>
   <groupId>com.helger</groupId>
   <artifactId>ph-wsimport-plugin</artifactId>
-  <version>2.2.8.1</version>
+  <version>2.2.8.2</version>
 </dependency>
 ```
 
