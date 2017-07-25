@@ -2,6 +2,8 @@
 A plugin for wsimport 2.2 to add some extra functionality
 
 # News and noteworthy
+* v2.2.10.1 - work in progress
+  * Updated to ph-commons 9.0.0
 * v2.2.10 - 2017-07-21
   * Updated to JAXWS 2.2.10
 * v2.2.8.2 - 2016-06-12
