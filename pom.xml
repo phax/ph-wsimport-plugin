@@ -62,7 +62,7 @@
   
   <properties>
     <jaxws.version>2.2.10</jaxws.version>
-    <jaxb.version>2.2.10-b140802.1033</jaxb.version>
+    <jaxb.version>2.2.11</jaxb.version>
   </properties>
   
   <dependencyManagement>
@@ -96,13 +96,13 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.sun.xml.bind</groupId>
-      <artifactId>jaxb-impl</artifactId>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-core</artifactId>
       <version>${jaxb.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.sun.xml.bind</groupId>
+      <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-jxc</artifactId>
       <version>${jaxb.version}</version>
       <scope>provided</scope>
