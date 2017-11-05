@@ -2,7 +2,7 @@
 A plugin for wsimport 2.2 to add some extra functionality
 
 # News and noteworthy
-* v2.2.10.1 - work in progress
+* v2.2.10.1 - 2017-11-05
   * Updated to ph-commons 9.0.0
 * v2.2.10 - 2017-07-21
   * Updated to JAXWS 2.2.10
@@ -31,7 +31,7 @@ Add the following to your pom.xml to use this artifact:
       <dependency>
         <groupId>com.helger</groupId>
         <artifactId>ph-wsimport-plugin</artifactId>
-        <version>2.2.10</version>
+        <version>2.2.10.1</version>
       </dependency>
     </dependencies>
   </plugin>
