@@ -70,6 +70,15 @@
         <jaxb.version>2.2.11</jaxb.version>
         <jaxws.version>2.2.10</jaxws.version>
       </properties>
+      <dependencies>
+        <!-- Only available until 2.3.0.1 -->
+        <dependency>
+          <groupId>org.glassfish.jaxb</groupId>
+          <artifactId>jaxb-core</artifactId>
+          <version>${jaxb.version}</version>
+          <scope>provided</scope>
+        </dependency>
+      </dependencies>
     </profile>
     <profile>
       <id>jdk9up</id>
@@ -100,12 +109,6 @@
     <dependency>
       <groupId>com.helger</groupId>
       <artifactId>ph-commons</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish.jaxb</groupId>
-      <artifactId>jaxb-core</artifactId>
-      <version>${jaxb.version}</version>
-      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
