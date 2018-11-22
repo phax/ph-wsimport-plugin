@@ -5,7 +5,7 @@ A plugin for wsimport 2.2 to add some extra functionality
 # News and noteworthy
 
 * v2.3.1.1 - 2018-11-22
-    * Added support for JAXB 2.3.1 when using Java 9 or higher - still works with JAXB 2.2.11 for Java 8
+    * Added support for JAXB 2.3.1 when using Java 9 or higher - still works with JAXWS 2.2.10 for Java 8
     * Updated to ph-commons 9.2.0 
     * Created code requires at least ph-commons 9.2.0
 * v2.2.10.1 - 2017-11-05
