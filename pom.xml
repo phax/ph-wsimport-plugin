@@ -84,10 +84,10 @@
       <id>jdk9up</id>
       <activation>
         <!-- use "12)" to support versions like "11.0.1" -->
-        <jdk>[9,12)</jdk>
+        <jdk>[9,13)</jdk>
       </activation>
       <properties>
-        <jaxb.version>2.3.1</jaxb.version>
+        <jaxb.version>2.3.2</jaxb.version>
         <jaxws.version>2.3.1</jaxws.version>
       </properties>
     </profile>
