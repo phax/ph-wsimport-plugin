@@ -4,6 +4,8 @@ A plugin for wsimport 2.2 to add some extra functionality
 
 # News and noteworthy
 
+* v2.3.1.3 - 2019-05-07
+    * Using unbounded version instead of limiting to Java 12.x
 * v2.3.1.2 - 2019-05-05
     * Added Java 12 support
 * v2.3.1.1 - 2018-11-22
@@ -40,7 +42,7 @@ Add the following to your pom.xml to use this artifact:
       <dependency>
         <groupId>com.helger</groupId>
         <artifactId>ph-wsimport-plugin</artifactId>
-        <version>2.3.1.2</version>
+        <version>2.3.1.3</version>
       </dependency>
     </dependencies>
   </plugin>
