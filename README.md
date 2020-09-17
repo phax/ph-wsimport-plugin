@@ -29,6 +29,8 @@ Add the following to your pom.xml to use this artifact:
 
 # News and noteworthy
 
+* v2.3.3.0 - 2020-09-17
+    * Updated to JAXWS 2.3.3
 * v2.3.1.4 - 2020-06-07
     * Update for latest ph-commons version
 * v2.3.1.3 - 2019-05-07
