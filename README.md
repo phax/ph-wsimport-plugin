@@ -21,7 +21,7 @@ Add the following to your pom.xml to use this artifact:
       <dependency>
         <groupId>com.helger</groupId>
         <artifactId>ph-wsimport-plugin</artifactId>
-        <version>2.3.1.4</version>
+        <version>2.3.3.1</version>
       </dependency>
     </dependencies>
   </plugin>
@@ -29,7 +29,7 @@ Add the following to your pom.xml to use this artifact:
 
 # News and noteworthy
 
-* v2.3.3.1 - work in progress
+* v2.3.3.1 - 2021-03-21
     * Updated to ph-commons 10
 * v2.3.3.0 - 2020-09-17
     * Updated to JAXWS 2.3.3
