@@ -60,31 +60,12 @@
     </developer>
   </developers>
   
-  <properties>
-    <jaxb.version>2.3.3</jaxb.version>
-    <jaxws.version>2.3.3</jaxws.version>
-  </properties>
-  
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.sun.xml.bind</groupId>
-        <artifactId>jaxb-bom-ext</artifactId>
-        <version>${jaxb.version}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>com.sun.xml.ws</groupId>
-        <artifactId>jaxws-ri-bom</artifactId>
-        <version>${jaxws.version}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-      <dependency>
         <groupId>com.helger.commons</groupId>
         <artifactId>ph-commons-parent-pom</artifactId>
-        <version>10.0.0</version>
+        <version>10.1.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
