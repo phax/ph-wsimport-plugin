@@ -22,10 +22,10 @@
   <parent>
     <groupId>com.helger</groupId>
     <artifactId>parent-pom</artifactId>
-    <version>1.11.5</version>
+    <version>2.0.0</version>
   </parent>
   <artifactId>ph-wsimport-plugin</artifactId>
-  <version>2.3.3.3-SNAPSHOT</version>
+  <version>4.0.0-SNAPSHOT</version>
   <name>ph-wsimport-plugin</name>
   <description>JAX-WS wsimport plugin to improve created output</description>
   <url>https://github.com/phax/ph-wsimport-plugin</url>
@@ -65,7 +65,7 @@
       <dependency>
         <groupId>com.helger.commons</groupId>
         <artifactId>ph-commons-parent-pom</artifactId>
-        <version>10.2.0</version>
+        <version>11.0.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -77,6 +77,7 @@
       <groupId>com.helger.commons</groupId>
       <artifactId>ph-commons</artifactId>
     </dependency>
+    
     <dependency>
       <groupId>com.sun.xml.bind</groupId>
       <artifactId>jaxb-jxc</artifactId>
@@ -99,16 +100,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <configuration>
-          <source>8</source>
-        </configuration>
-      </plugin> 
-    </plugins>
-  </build>
 </project>

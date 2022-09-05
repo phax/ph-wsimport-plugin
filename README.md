@@ -1,6 +1,6 @@
 # ph-wsimport-plugin
 
-A plugin for wsimport 2.2 to add some extra functionality
+A plugin for Jakarta JAX-WS wsimport 4.0.0 to add some extra functionality
 
 # Maven usage
 
@@ -8,9 +8,9 @@ Add the following to your pom.xml to use this artifact:
 
 ```xml
   <plugin>
-    <groupId>com.helger.maven</groupId>
+    <groupId>com.sun.xml.ws</groupId>
     <artifactId>jaxws-maven-plugin</artifactId>
-    <version>2.6</version>
+    <version>4.0.0</version>
     <configuration>
       <args>
         <arg>-ph-csu</arg>
@@ -21,7 +21,7 @@ Add the following to your pom.xml to use this artifact:
       <dependency>
         <groupId>com.helger</groupId>
         <artifactId>ph-wsimport-plugin</artifactId>
-        <version>2.3.3.2</version>
+        <version>4.0.0</version>
       </dependency>
     </dependencies>
   </plugin>
@@ -29,8 +29,12 @@ Add the following to your pom.xml to use this artifact:
 
 # News and noteworthy
 
+* v4.0.0 - work in progress
+    * Updated to Jakarta JAX-WS 4.0.0
+    * Requires Java 11 as the baseline
 * v2.3.3.2 - 2021-05-03
     * Updated to ph-commons 10.1
+    * The last version that supports JAX-WS 2.3
 * v2.3.3.1 - 2021-03-21
     * Updated to ph-commons 10
 * v2.3.3.0 - 2020-09-17
