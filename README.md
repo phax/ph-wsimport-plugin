@@ -29,8 +29,9 @@ Add the following to your pom.xml to use this artifact:
 
 # News and noteworthy
 
-* v4.0.0 - work in progress
+* v4.0.0 - 2022-09-13
     * Updated to Jakarta JAX-WS 4.0.0
+    * Updated to ph-commons 11
     * Requires Java 11 as the baseline
 * v2.3.3.2 - 2021-05-03
     * Updated to ph-commons 10.1
