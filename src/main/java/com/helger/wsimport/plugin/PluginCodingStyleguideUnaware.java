@@ -20,8 +20,8 @@ import java.util.Iterator;
 
 import org.xml.sax.SAXException;
 
-import com.helger.commons.annotation.CodingStyleguideUnaware;
-import com.helger.commons.annotation.IsSPIImplementation;
+import com.helger.annotation.style.CodingStyleguideUnaware;
+import com.helger.annotation.style.IsSPIImplementation;
 import com.sun.codemodel.JCodeModel;
 import com.sun.codemodel.JDefinedClass;
 import com.sun.codemodel.JPackage;
