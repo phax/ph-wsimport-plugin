@@ -2,6 +2,10 @@
 
 A plugin for Jakarta JAX-WS wsimport 4.0.0 to add some extra functionality
 
+Version 5.x requires Java 17 and builds on ph-commons v12.
+
+Version 4.0.0 was the last version requiring Java 11 and builds on ph-commons v11.
+
 # Maven usage
 
 Add the following to your pom.xml to use this artifact:
@@ -10,7 +14,7 @@ Add the following to your pom.xml to use this artifact:
   <plugin>
     <groupId>com.sun.xml.ws</groupId>
     <artifactId>jaxws-maven-plugin</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.3</version>
     <configuration>
       <args>
         <arg>-ph-csu</arg>
@@ -21,7 +25,7 @@ Add the following to your pom.xml to use this artifact:
       <dependency>
         <groupId>com.helger</groupId>
         <artifactId>ph-wsimport-plugin</artifactId>
-        <version>4.0.0</version>
+        <version>5.0.0</version>
       </dependency>
     </dependencies>
   </plugin>
@@ -29,7 +33,7 @@ Add the following to your pom.xml to use this artifact:
 
 # News and noteworthy
 
-v5.0.0 - work in progress
+v5.0.0 - 2025-08-24
 * Requires Java 17 as the minimum version
 * Updated to ph-commons 12.0.0
 
