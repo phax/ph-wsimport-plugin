@@ -31,8 +31,8 @@ import com.sun.tools.ws.wscompile.Plugin;
 import com.sun.tools.ws.wscompile.WsimportOptions;
 
 /**
- * Create {@link CodingStyleguideUnaware} annotations in all bean generated
- * classes as well as in the ObjectFactory classes
+ * Create {@link CodingStyleguideUnaware} annotations in all bean generated classes as well as in
+ * the ObjectFactory classes
  *
  * @author Philip Helger
  */
